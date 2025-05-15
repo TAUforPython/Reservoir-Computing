@@ -1,8 +1,6 @@
 # [Probabilistic load forecasting with Reservoir Computing](https://ieeexplore.ieee.org/abstract/document/10360823)
 
-This repository contains the code used for the paper **Probabilistic load forecasting with Reservoir Computing**.
-
-Authors: Michele Guerra, Simone Scardapane, Filippo Maria Bianchi
+Jupyter Notebook adopted!
 
 Abstract:
 
@@ -10,17 +8,7 @@ Abstract:
 This work focuses on reservoir computing as the core time series forecasting method, due to its computational efficiency and effectiveness in predicting time series.
 While the RC literature mostly focused on point forecasting, this work explores the compatibility of some popular uncertainty quantification methods with the reservoir setting. Both Bayesian and deterministic approaches to uncertainty assessment are evaluated and compared in terms of their prediction accuracy, computational resource efficiency and reliability of the estimated uncertainty, based on a set of carefully chosen performance metrics.
 
-## Conda environment
 
-Before using this repository, you should first install all needed libraries with conda
-```
-conda env create -f conda_environment.yml
-```
-
-## How to use
-
-To reproduce the experiments you need to adjust `experiments.py` and adjust the `config` dictionary accordingly.  
-Otherwise, to play around and visualise all the different methods, you can work interactively with the `main_*.ipynb` notebooks.
 
 ## Citation
 
